@@ -1,0 +1,30 @@
+t:
+  skip_links: "Skip links"
+  skip_primary_nav: "Skip to primary navigation"
+  skip_content: "Skip to content"
+  skip_footer: "Skip to footer"
+  menu: "Menu"
+  search: "Buscar"
+  site_search: "Buscar en Sitio"
+  results_found: "Resultado(s)"
+  search_placeholder_text: "Ingrese su busqueda"
+  home: "Home"
+  newer: "Nuevos"
+  older: "Viejos"
+  email: "Email"
+  subscribe: "Suscribirse"
+  read_more: "Leer más"
+  posts: "Posts"
+  page: "Página"
+  of: "de"
+  min_read: "min lectura"
+  present: "Presentar"
+  
+google_fonts:
+  - name: "Fira Sans"
+    weights: "400,400i,600,600i"
+  - name: "Fira Sans Condensed"
+
+# navigation_pages:
+#   - about.md
+#  - cv.md

@@ -2,7 +2,7 @@
 layout: post
 title:  "Javascript Good Parts"
 date:   2020-04-02 09:34:05 -0300
-tags: utn ttads video educacion
+tags: utn ttads video educacion javascript
 categories: educacion
 ---
 Una serie de videos para la catedra de [Tecnicas y Tecnologias Avanzadas de Desarrollo de Software (TTADS)][ttads-github].
@@ -15,18 +15,30 @@ Un [video en youtube](https://www.youtube.com/watch?v=lP9-Zx_cCUg) muy recomenda
 La [primera parte]({% post_url 2020-04-01-presentacion-javascript %}) de estas clases.
 
 ## Clousures, objetos dinamicos y literales
-
+Crear objetos sin un new, agregar variables y metodos a un objetos sin especificar una clase. 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dK-lQxdjN0k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Funciones de orden superior
+
+Funciones que manipulan otras funciones, funciones que crean otras funciones, funciones como ciudadanos de primera clase. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DLR5FH8ml80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Javascript herencia prototipica
+
+La herencia entre objetos y no entre clases. Herencia de atributos y de metodos.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GXqDeF0nKI4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Javascript the bad parts
 
+Lo que no hay que hacer cuando usamos javascript, o como mantener la cordura en el desarrollo frontend. 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Mr8brFfA3_M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Javascript Ejercicios
+
+Algunos ejercicios relacionados con los videos anteriores.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gkQOlg6tq-w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
