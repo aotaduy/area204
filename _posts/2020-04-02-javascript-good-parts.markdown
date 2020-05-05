@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Javascript Good Parts"
 date:   2020-04-02 09:34:05 -0300
 tags: utn ttads video educacion javascript

@@ -18,18 +18,32 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Artificial Opinion
+title: Opinion
+subtitle: programación, educacion y experimentos.
 lang: es-ar
+locale: es-AR
 description: >- # this means to ignore newlines until "baseurl:"
-  Artificil Opinion es un blog sobre desarrollo de software pronciplamente frontend
+  Artificil Opinion es un blog sobre desarrollo de software principlamente frontend
   y educación.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+breadcrumbs: false
 github_username:  aotaduy
+
+words_per_minute: 160
 
 author:
   name: Andres Otaduy Botas
   picture: /assets/images/profile.png
+  avatar: /assets/images/profile.png
+  bio: Rosarino, programador desde mi mas tierna infancia, profesor universitario, padre de 2 varones.
+  location: Rosario, Santa Fe, Argentina
+  links: 
+    - label: LinkedIn
+      url: https://ar.linkedin.com/in/andres-otaduy-48b69156
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/aotaduy
 
 minima:
   social_links:
@@ -38,9 +52,21 @@ minima:
 
 # Build settings
 # theme: minima
-theme: jekyll-theme-basically-basic
+# theme: jekyll-theme-basically-basic
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
 
 search: true
 # Exclude from processing.
@@ -62,3 +88,49 @@ search: true
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+footer:
+  links:
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/aotaduy
+
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+collections:
+  videos:
+    output: true
+    permalink: /:collection/:path/
+  traducciones:
+    output: true
+    permalink: /:collection/:path/
+
+include: ["_pages"]
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      header:
+        overlay_color: "#5e616c"  
+        overlay_image: /assets/images/space-invaders-hero.jpg  
+  # _docs
+
+  # Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style

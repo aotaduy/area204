@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "PetiComputadora"
 date:   2020-04-16 09:34:05 -0300
 tags: utn arquitectura educacion angular
@@ -21,4 +20,4 @@ Algunos screenshots
 ### Ejemplos
 ![Ejemplos](/assets/screenshots/peti/peti-screen2.png)
 ### Ejecución
-![Ejecución}](/assets/screenshots/peti/peti-screen3.png)
+ ![Ejecución}](/assets/screenshots/peti/peti-screen3.png)

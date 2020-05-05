@@ -1,0 +1,9 @@
+main:
+  - title: "Categorias"
+    url: /categorias/
+  - title: "Tags"
+    url: /tags/
+  - title: "CV"
+    url: /cv/
+  - title: "Mapa"
+    url: /sitemap/
