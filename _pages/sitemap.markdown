@@ -5,8 +5,7 @@ permalink: /sitemap/
 author_profile: false
 ---
 
-Una lista con todos los posts del sitio. Para los robots hay una [version XML]({{ "sitemap.xml" | relative_url }}) disponible.
-
+Una lista con todos los posts del sitio.
 <h2>Paginas</h2>
 {% for post in site.pages %}
   {% include archive-single.html %}
@@ -15,21 +14,4 @@ Una lista con todos los posts del sitio. Para los robots hay una [version XML]({
 <h2>Posts</h2>
 {% for post in site.posts %}
   {% include archive-single.html %}
-{% endfor %}
-
-{% capture written_label %}'None'{% endcapture %}
-
-{% for collection in site.collections %}
-{% unless collection.output == false or collection.label == "posts" %}
-  {% capture label %}{{ collection.label }}{% endcapture %}
-  {% if label != written_label %}
-  <h2>{{ label }}</h2>
-  {% capture written_label %}{{ label }}{% endcapture %}
-  {% endif %}
-{% endunless %}
-{% for post in collection.docs %}
-  {% unless collection.output == false or collection.label == "posts" %}
-  {% include archive-single.html %}
-  {% endunless %}
-{% endfor %}
 {% endfor %}
