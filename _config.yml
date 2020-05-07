@@ -21,7 +21,7 @@
 title: Area 204
 subtitle: "{programacion, educación y experimentos}"
 lang: es-ar
-locale: es-AR
+locale: en
 description: >- # this means to ignore newlines until "baseurl:"
   Area 204 es un blog sobre desarrollo de software principlamente frontend
   y educación.
