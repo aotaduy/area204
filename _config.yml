@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Opinion
-subtitle: programación, educacion y experimentos.
+title: Area 204
+subtitle: "{programacion, educación y experimentos}"
 lang: es-ar
 locale: es-AR
 description: >- # this means to ignore newlines until "baseurl:"
-  Artificil Opinion es un blog sobre desarrollo de software principlamente frontend
+  Area 204 es un blog sobre desarrollo de software principlamente frontend
   y educación.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -118,6 +118,10 @@ defaults:
       comments: false
       share: true
       related: true
+      toc: true
+      header:
+        overlay_color: "#5e616c"  
+        overlay_image: /assets/images/space-invaders-hero.jpg  
   # _pages
   - scope:
       path: "_pages"
