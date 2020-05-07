@@ -25,8 +25,8 @@ locale: es-AR
 description: >- # this means to ignore newlines until "baseurl:"
   Area 204 es un blog sobre desarrollo de software principlamente frontend
   y educación.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/area204/" # the subpath of your site, e.g. /blog
+url: "https://aotaduy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 breadcrumbs: false
 github_username:  aotaduy
 
