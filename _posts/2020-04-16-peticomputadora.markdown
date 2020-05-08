@@ -16,8 +16,8 @@ Para ingresar se puede hacer [click aqui](https://aotaduy.github.io/peticomputad
 
 Algunos screenshots
 ### Bienvenida
-![Bienvenida]({{ site.url }}/assets/screenshots/peti/peti-screen1.png)
+![Bienvenida]({{ site.baseurl }}/assets/screenshots/peti/peti-screen1.png)
 ### Ejemplos
-![Ejemplos]({{ site.url }}/assets/screenshots/peti/peti-screen2.png)
+![Ejemplos]({{ site.baseurl }}/assets/screenshots/peti/peti-screen2.png)
 ### Ejecución
- ![Ejecución}]({{ site.url }}/assets/screenshots/peti/peti-screen3.png)
+ ![Ejecución}]({{ site.baseurl }}/assets/screenshots/peti/peti-screen3.png)

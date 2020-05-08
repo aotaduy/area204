@@ -5,4 +5,6 @@ main:
     url: /tags/
   - title: "CV"
     url: /cv/
+  - title: "Links"
+    url: /links/
   
