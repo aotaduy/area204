@@ -54,7 +54,7 @@ minima:
 # theme: minima
 # theme: jekyll-theme-basically-basic
 remote_theme: "mmistakes/minimal-mistakes@4.19.2"
-theme: "minimal-mistakes-jekyll"
+#theme: "minimal-mistakes-jekyll"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 plugins:
   - jekyll-paginate
