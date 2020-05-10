@@ -17,7 +17,7 @@ Sobre Angular, en este caso una breve introduccion al framework.
 
 En angular podemos pasar parametros a otros tags con los resultados de algun calculo de nuestro componente, para eso tenemos el binding de atributos. 
 
-{%include video id="1oxWTlQVBM8 provider="youtube" %}
+{%include video id="1oxWTlQVBM8" provider="youtube" %}
 
 ## Angular Binding de Eventos
 
@@ -25,7 +25,7 @@ Para poder tomar entradas de los gestos del usuario en la interfaz podemos conec
 
 Con el binding de eventos podemos lograr este comportamiento.
 
-{%include video id="E7Zj3nEXjQY provider="youtube" %}
+{%include video id="E7Zj3nEXjQY" provider="youtube" %}
 
 ## Angular Directivas del Framework
 
