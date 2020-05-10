@@ -6,7 +6,7 @@ categories: educacion
 toc: true
 ---
 Una serie de videos para la catedra de [Tecnicas y Tecnologias Avanzadas de Desarrollo de Software (TTADS)][ttads-github].
-Sobre Angular, en este caso una breve introduccion al framework. 
+Sobre Angular, en este caso las directivas basicas del framework. 
 
 [Aca][ttads-presentacion] se puede ver la presentacion que se uso para esas clases.
 
