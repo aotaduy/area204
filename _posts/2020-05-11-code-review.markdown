@@ -39,33 +39,33 @@ La salida de este proceso es una seria de comentarios y recomendaciones, normalm
 + Profundo
 
 ### Completo 
-Todo el código ya sea código en produccion o en desarrollo debe ser revisado, esto puede lograrse estableciendo un requerimiento de revisón y aprobación en cada Pull Request, o bien realizando revisiones periodicas de todo el código. Cada parte del codigo debe revisarse, frontend, backend, css, pruebas automatizadas, scripts de sql, documentación e incluso los casos de prueba. 
+Todo el código ya sea código en producción o en desarrollo debe ser revisado, esto puede lograrse estableciendo un requerimiento de revisón y aprobación en cada Pull Request, o bien realizando revisiones periodicas de todo el código. Cada parte del codigo debe revisarse, frontend, backend, css, pruebas automatizadas, scripts de sql, documentación e incluso los casos de prueba. 
 
 ### Obligatorio
 Todo el código debe ser revisado, ya sea el que incorporan lo arquitectos y lideres, bugfixes, hotfixes. Todos deben saber que el código va a ser revisado antes de ser integrado en el repositorio. 
 
-### Periodico
-La revisión debe ser periodica y veces fuera del contexto de los Pull Request ya que a veces una porción de código puede tener sentido en el marco de un Pull Request pero representa una repetición del codigo o una desviacion del estandard en el resto del desarrollo. También puede pasar que las reglas del propio code review hayan cambiado y una parte del proyecto este por fuera de estas reglas por haber sido evaluado en otro momento. 
+### Periódico
+La revisión debe ser periódica y veces fuera del contexto de los Pull Request ya que a veces una porción de código puede tener sentido en el marco de un Pull Request pero representa una repetición del codigo o una desviacion del estandard en el resto del desarrollo. También puede pasar que las reglas del propio code review hayan cambiado y una parte del proyecto este por fuera de estas reglas por haber sido evaluado en otro momento. 
 
 ### Trazable
-Deberiamos poder trazar cada porción de codigo con quien fue el autor y el/los revisores que lo aprobaron. 
+Deberíamos poder trazar cada porción de codigo con quien fue el autor y el/los revisores que lo aprobaron. 
 
 ### Automatizado 
 
-Deberiamos poder detectar y/o corregir todos los errores de estilos con herrmientas automatizadas (linters, warnings de compiladores, spellcheckers, stylecheckers) para centrar los esfuerzos humanos del review en los problemas en algoritmos complejidad, nombres etc. 
+Deberíamos poder detectar y/o corregir todos los errores de estilos con herramientas automatizadas (linters, warnings de compiladores, spellcheckers, stylecheckers) para centrar los esfuerzos humanos del review en los problemas en algoritmos complejidad, nombres etc. 
 
 ### Reproducible
 
-Idealmente dos revisores  diferentes con los mismos principios de diseño y estilo definidos deberian producir los mismos comentarios para el mismo código. Deberiamos tratar de excluir cosas opinables o sujeto de debate entre miembros del equipo. En el caso de que surja algun debate en una revisión debe estar incluido en el proceso quien va a juzgar cual es la mejor manera de hacer algo y esta decision debe incluirse en la documentación y estilos del proceso de revisión de código. 
+Idealmente dos revisores  diferentes con los mismos principios de diseño y estilo definidos deberían producir los mismos comentarios para el mismo código. Deberiamos tratar de excluir cosas opinables o sujeto de debate entre miembros del equipo. En el caso de que surja algun debate en una revisión debe estar incluido en el proceso quien va a juzgar cual es la mejor manera de hacer algo y esta decision debe incluirse en la documentación y estilos del proceso de revisión de código. 
 
 ### Publico
-Todos los miembros del equipo pueden ver que código está siendo revisado y cualquier persona puede agragar un comentario a cualquier porcion de codigo de un Pull request. Debemoa evitar establecer una jerarquia que impida opinar sobre el codigo y proponer mejoras. 
+Todos los miembros del equipo pueden ver que código está siendo revisado y cualquier persona puede agregar un comentario a cualquier porcion de codigo de un Pull request. Debemoa evitar establecer una jerarquia que impida opinar sobre el codigo y proponer mejoras. 
 
 ### Impersonal
-La revisión del código on se hace contra el autor del código, es contra el codigo mismo y se hace con el espiritu de mejorarlo. Debemos evitar adjetivar sobre el codigo y distinguir entre loa gustos personales y los estandares estblecidos.
+La revisión del código on se hace contra el autor del código, es contra el codigo mismo y se hace con el espiritu de mejorarlo. Debemos evitar adjetivar sobre el codigo y distinguir entre loa gustos personales y los estándares establecidos.
 
 ### Aislado
-Cuanod hacemos revisión de código debemos intentar abstraernos de las condiciones concretas con que se desarrollo esa porcion de codigo (deadlines, plazos, falta de presupuesto, hofixes, mala calidad del resto del código, etc). Las mejoras que se propongan pueden realizarse en ese momento o cuando se cuente con mas o mejores recursos para el desarrollo. 
+Cuando hacemos revisión de código debemos intentar abstraernos de las condiciones concretas con que se desarrollo esa porción de codigo (deadlines, plazos, falta de presupuesto, hofixes, mala calidad del resto del código, etc). Las mejoras que se propongan pueden realizarse en ese momento o cuando se cuente con mas o mejores recursos para el desarrollo. 
 
 ### Interno / Externo
-La revisón de codigo debe ser realizada diariamente por los propios miembros del equipo y es una buena practica tener revisiones de codigo externas de otros desarrolladores en diferentes momentos del proyecto. Esto puede ayudar a identificar partes del código dificiles de entender, practicas no estandard, o desviaciones de los estandares de la comunidad o de la organización. 
+La revisón de codigo debe ser realizada diariamente por los propios miembros del equipo y es una buena practica tener revisiones de codigo externas de otros desarrolladores en diferentes momentos del proyecto. Esto puede ayudar a identificar partes del código difíciles de entender, practicas no estandard, o desviaciones de los entandares de la comunidad o de la organización. 
