@@ -1,14 +1,14 @@
 ---
 title:  "Angular"
 date:   2020-04-02 09:34:05 -0300
-tags: utn ttads video educacion angular javascript typescript
-categories: educacion
+tags: utn ttads video educación angular javascript typescript
+categories: educación
 toc: true
 ---
-Una serie de videos para la catedra de [Tecnicas y Tecnologias Avanzadas de Desarrollo de Software (TTADS)][ttads-github].
-Sobre Angular, en este caso una breve introduccion al framework. 
+Una serie de videos para la cátedra de [Técnicas y Tecnologías Avanzadas de Desarrollo de Software (TTADS)][ttads-github].
+Sobre Angular, en este caso una breve introducción al framework. 
 
-[Aca][ttads-presentacion] se puede ver la presentacion que se uso para esas clases.
+[Aca][ttads-presentacion] se puede ver la presentación que se uso para esas clases.
 
 [La documentación oficial de Angular](https://angular.io/docs) la base para empezar a usar el framework. 
 

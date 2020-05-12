@@ -14,7 +14,7 @@ Se puede realizar sobre porciones del código o cambios antes de ser incorporado
 
 ## Entrada
 
-Como entrada para este proceso deberiamos tener: 
+Como entrada para este proceso deberíamos tener: 
 + La base de codigo: código fuente, estilos css, scripts de sql, acceso a los repositorios.
 + Reglas de estilo: Las reglas de estilo que se usaron en el desarrollo. 
 + Principios de diseño: una descripción de los principios de diseño que se usaron para el desarrollo, los conceptos, arquitecturas, teorias y/o patrones involucrados. 
@@ -25,8 +25,8 @@ La salida de este proceso es una seria de comentarios y recomendaciones, normalm
 ## Principios del code review
 
 + Completo
-+ Obligtorio
-+ Periodico 
++ Obligatorio
++ Periódico 
 + Trazable
 + Automatizado
 + Medible
@@ -59,7 +59,7 @@ Deberiamos poder detectar y/o corregir todos los errores de estilos con herrmien
 Idealmente dos revisores  diferentes con los mismos principios de diseño y estilo definidos deberian producir los mismos comentarios para el mismo código. Deberiamos tratar de excluir cosas opinables o sujeto de debate entre miembros del equipo. En el caso de que surja algun debate en una revisión debe estar incluido en el proceso quien va a juzgar cual es la mejor manera de hacer algo y esta decision debe incluirse en la documentación y estilos del proceso de revisión de código. 
 
 ### Publico
-Todos los miembros del equipo pueden ver que código está siendo revisado y cualquier perons apuede agragar un comentario a cualquier porcion de codigo de un Pull request. Debemoa evitar establecer una jerarquia que impida opinar sobre el codigo y proponer mejoras. 
+Todos los miembros del equipo pueden ver que código está siendo revisado y cualquier persona puede agragar un comentario a cualquier porcion de codigo de un Pull request. Debemoa evitar establecer una jerarquia que impida opinar sobre el codigo y proponer mejoras. 
 
 ### Impersonal
 La revisión del código on se hace contra el autor del código, es contra el codigo mismo y se hace con el espiritu de mejorarlo. Debemos evitar adjetivar sobre el codigo y distinguir entre loa gustos personales y los estandares estblecidos.

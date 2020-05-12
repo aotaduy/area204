@@ -1,10 +1,10 @@
 ---
 title:  "Javascript Good Parts"
 date:   2020-04-02 09:34:05 -0300
-tags: utn ttads video educacion javascript
-categories: educacion
+tags: utn ttads video educación javascript
+categories: educación
 ---
-Una serie de videos para la catedra de [Tecnicas y Tecnologias Avanzadas de Desarrollo de Software (TTADS)][ttads-github].
+Una serie de videos para la cátedra de [Técnicas y Tecnologías Avanzadas de Desarrollo de Software (TTADS)][ttads-github].
 Sobre Javascript basado en el libro [Javascript the Good Parts][good-parts]
 
 [Aca][ttads-presentacion] se puede ver la presentacion que se uso para esas clases.
@@ -14,7 +14,7 @@ Un [video en youtube](https://www.youtube.com/watch?v=lP9-Zx_cCUg) muy recomenda
 La [primera parte]({% post_url 2020-04-01-presentacion-javascript %}) de estas clases.
 
 ## Clousures, objetos dinamicos y literales
-Crear objetos sin un new, agregar variables y metodos a un objetos sin especificar una clase. 
+Crear objetos sin un new, agregar variables y métodos a un objetos sin especificar una clase. 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dK-lQxdjN0k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Funciones de orden superior
@@ -23,9 +23,9 @@ Funciones que manipulan otras funciones, funciones que crean otras funciones, fu
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DLR5FH8ml80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Javascript herencia prototipica
+## Javascript herencia prototípica
 
-La herencia entre objetos y no entre clases. Herencia de atributos y de metodos.
+La herencia entre objetos y no entre clases. Herencia de atributos y de métodos.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GXqDeF0nKI4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

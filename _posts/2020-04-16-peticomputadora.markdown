@@ -1,10 +1,10 @@
 ---
 title:  "PetiComputadora"
 date:   2020-04-16 09:34:05 -0300
-tags: utn arquitectura educacion angular
-categories: educacion
+tags: utn arquitectura educación angular
+categories: educación
 ---
-La peticomputadora es una computadora minima didactica que fue creada en la catedra de Arquitectura de computadoras de la UTN Facultad Regional Rosario.
+La peticomputadora es una computadora minima didactica que fue creada en la cátedra de Arquitectura de computadoras de la UTN Facultad Regional Rosario.
 
 Es una computadora con una tamaño de palabra de 8 bits, 3 bits para el codigo de instruccion y 5 bits ´para el direccionamiento de memoria.
 

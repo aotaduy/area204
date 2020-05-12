@@ -1,11 +1,11 @@
 ---
 title:  "Angular Template"
 date:   2020-05-03 09:30:05 -0300
-tags: utn ttads video educacion angular javascript typescript
-categories: educacion
+tags: utn ttads video educación angular javascript typescript
+categories: educación
 toc: true
 ---
-Una serie de videos para la catedra de [Tecnicas y Tecnologias Avanzadas de Desarrollo de Software (TTADS)][ttads-github].
+Una serie de videos para la cátedra de [Técnicas y Tecnologías Avanzadas de Desarrollo de Software (TTADS)][ttads-github].
 Sobre Angular, en este caso las directivas basicas del framework. 
 
 [Aca][ttads-presentacion] se puede ver la presentacion que se uso para esas clases.
@@ -15,13 +15,13 @@ Sobre Angular, en este caso las directivas basicas del framework.
 
 ## Angular Binding de Atributos	
 
-En angular podemos pasar parametros a otros tags con los resultados de algun calculo de nuestro componente, para eso tenemos el binding de atributos. 
+En angular podemos pasar parametros a otros tags con los resultados de algún calculo de nuestro componente, para eso tenemos el binding de atributos. 
 
 {%include video id="1oxWTlQVBM8" provider="youtube" %}
 
 ## Angular Binding de Eventos
 
-Para poder tomar entradas de los gestos del usuario en la interfaz podemos conectar los eventos del DOM con llamadas a metodos de nuestros componentes, por ejemplo un click en un boton, el puntero del mouse ingresando en un div, o la presion de una tecla.
+Para poder tomar entradas de los gestos del usuario en la interfaz podemos conectar los eventos del DOM con llamadas a metodos de nuestros componentes, por ejemplo un click en un boton, el puntero del mouse ingresando en un div, o la presión de una tecla.
 
 Con el binding de eventos podemos lograr este comportamiento.
 
@@ -29,7 +29,7 @@ Con el binding de eventos podemos lograr este comportamiento.
 
 ## Angular Directivas del Framework
 
-Angular provee varias directivas basicas que permiten cierto flujo de control dentro del Template, con ellas podemos eliminar o incluir ciertas partes del DOM, iterar sobre una coleccion y generar elementos, o agregar y eliminar clases y estilos CSS en base a diferentes condiciones. 
+Angular provee varias directivas bascas que permiten cierto flujo de control dentro del Template, con ellas podemos eliminar o incluir ciertas partes del DOM, iterar sobre una coleccion y generar elementos, o agregar y eliminar clases y estilos CSS en base a diferentes condiciones. 
 
 ### Angular NgIf, NgClass, NgStyle
 

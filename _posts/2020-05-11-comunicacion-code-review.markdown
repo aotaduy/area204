@@ -15,12 +15,12 @@ Vamos a mostrar una lista de do's y dont's en el code review a la hora de comuni
 
 + No referirse a la persona, referirse a uno mismo
     + Correcto: 'Me resulta dificil entender lo que hace esta función'
-    + Incorrecto: 'Estas escribiedo funciones muy cripticas'
+    + Incorrecto: 'Estas escribiedo funciones muy crípticas'
 + Incluirse como parte del arreglo del problema: 
     + Correcto: 'Deberiamos arreglar estos tests'
     + Incorrecto: 'Tenes que arreglar estos tests'
 + Criticar lo que hace el codigo, no al autor
-    + Correcto: 'Creo que deberiamos arreglar estos tests'
+    + Correcto: 'Creo que deberíamos arreglar estos tests'
     + Incorrecto: 'Sos un poco descuidado al escribir los tests'
 + Hablar del código no de la persona
     + Correcto: 'Esta función se llama muchas veces, parece inficiente'
@@ -60,4 +60,4 @@ Muchas veces somos timidos a la hora de revisar código y no ponemos comentarios
 
 ## Propiedad colectiva del código
 
-Por eso es mejor impulsar una cultura horizontalista de propiedad colectiva del código, donde todos hacemos code review, todos comentamos sin distinción de titulos, arquitectos, senior, junior, backend, frontend, fullstack ya que como equipo todos somos dueños y por lo tanto responsables de lo que se manda a producción y se deja en los repositorios de código de la organización. 
+Por eso es mejor impulsar una cultura horizontal de propiedad colectiva del código, donde todos hacemos code review, todos comentamos sin distinción de titulos, arquitectos, senior, junior, backend, frontend, fullstack ya que como equipo todos somos dueños y por lo tanto responsables de lo que se manda a producción y se deja en los repositorios de código de la organización. 

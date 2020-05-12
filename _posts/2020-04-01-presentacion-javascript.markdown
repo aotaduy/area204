@@ -1,10 +1,10 @@
 ---
 title:  "Javascript introducción"
 date:   2020-04-01 09:34:05 -0300
-tags: utn ttads video educacion javascript
-categories: educacion
+tags: utn ttads video educación javascript
+categories: educación
 ---
-Una serie de videos para la catedra de [Tecnicas y Tecnologias Avanzadas de Desarrollo de Software (TTADS)][ttads-github].
+Una serie de videos para la cátedra de [Técnicas y Tecnologías Avanzadas de Desarrollo de Software (TTADS)][ttads-github].
 Sobre desarrollo web y en particular de Javascript. 
 
 [Aca][ttads-presentacion] se puede ver la presentación que se usó para esas clases.

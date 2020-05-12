@@ -13,7 +13,7 @@ Estoy a cargo de la coordinacion del Chapter de FrontEnd con desarrolladores en 
 Venimos desarrollando una biblioteca de componentes compartidos para el Grupo utilizando practicas de excelencia como colective code ownership, clean code, code review, TDD, Automated testing, CI, y CD.  
 
 ### Profesor en UTN FRRO
-Soy profesor en la [Facultad regional rosario de la Universidad Tecnologica Nacional](http://www.frro.utn.edu.ar), mi alma mater, de la que egresé hace ya varios años. Doy clases en dos materias Arquitectura de Computadoras (Primer Año) y [Tecnicas y Tecnologias Avanzadas de desarrollo de Software][ttads-github]. (electiva de cuarto). 
+Soy profesor en la [Facultad regional rosario de la Universidad Tecnologica Nacional](http://www.frro.utn.edu.ar), mi alma mater, de la que egresé hace ya varios años. Doy clases en dos materias Arquitectura de Computadoras (Primer Año) y [Técnicas y Tecnologías Avanzadas de desarrollo de Software][ttads-github]. (electiva de cuarto). 
 
 
 ## Educación
