@@ -141,6 +141,7 @@ sass:
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 analytics:
+  provider: "google"
   google:
    tracking_id: "UA-166300699-1"
 
