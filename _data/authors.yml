@@ -1,0 +1,10 @@
+Sol Lopez:
+  name        : "Sol Lopez"
+  bio         : "Frontend, baterista, aguante el rock y el metal"
+  avatar      : "/assets/authors/sol-lopez.jpg"
+  links:
+    - label: LinkedIn
+      url: "https://www.linkedin.com/in/sol-l%C3%B3pez-a7a192b/"
+    - label: "Instagram"
+      icon: "fab fa-instagram"
+      url: "https://www.instagram.com/sol.lopez87/"
