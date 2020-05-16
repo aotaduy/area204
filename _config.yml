@@ -45,6 +45,8 @@ author:
       icon: fab fa-fw fa-github
       url: https://github.com/aotaduy
 
+og_image: /assets/images/area204-og.jpg
+
 minima:
   social_links:
     github: aotaduy

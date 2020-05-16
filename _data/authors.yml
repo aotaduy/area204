@@ -2,6 +2,7 @@ Sol Lopez:
   name        : "Sol Lopez"
   bio         : "Frontend, baterista, aguante el rock y el metal"
   avatar      : "/assets/authors/sol-lopez.jpg"
+  location    : Rosario, Santa Fe, Argentina
   links:
     - label: LinkedIn
       url: "https://www.linkedin.com/in/sol-l%C3%B3pez-a7a192b/"
