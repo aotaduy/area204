@@ -124,7 +124,9 @@ defaults:
       toc: true
       header:
         overlay_color: "#5e616c"  
-        overlay_image: /assets/images/space-invaders-hero.jpg  
+        overlay_image: /assets/images/space-invaders-hero.jpg
+        og_image: /assets/images/area204-og.jpg
+
   # _pages
   - scope:
       path: "_pages"
@@ -134,7 +136,9 @@ defaults:
       author_profile: true
       header:
         overlay_color: "#5e616c"  
-        overlay_image: /assets/images/space-invaders-hero.jpg  
+        overlay_image: /assets/images/space-invaders-hero.jpg
+        og_image: /assets/images/area204-og.jpg
+
   # _docs
 
   # Sass/SCSS
