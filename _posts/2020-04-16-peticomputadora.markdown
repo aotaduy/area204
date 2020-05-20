@@ -21,3 +21,14 @@ Algunos screenshots
 ![Ejemplos]({{ site.baseurl }}/assets/screenshots/peti/peti-screen2.png)
 ### Ejecución
  ![Ejecución}]({{ site.baseurl }}/assets/screenshots/peti/peti-screen3.png)
+
+### Videos
+
+#### Teoria
+{%include video id="pHxzo_o-rYs" provider="youtube" %}
+
+#### Instrucciones de salto
+{%include video id="Lou0unklKAw" provider="youtube" %}
+
+https://www.youtube.com/watch?v=pHxzo_o-rYs
+https://www.youtube.com/watch?v=Lou0unklKAw
