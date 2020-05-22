@@ -1,5 +1,5 @@
 ---
-title:  "Angular Compponentes - Inuput - Output- Ciclo de Vida"
+title:  "Angular Componentes"
 date:   2020-05-22 09:30:05 -0300
 tags: utn ttads video educación angular javascript typescript
 categories: educación
