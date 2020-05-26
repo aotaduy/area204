@@ -5,14 +5,9 @@ tags: utn ttads video educación angular javascript typescript
 categories: educación
 toc: true
 ---
-Una serie de videos para la cátedra de [Técnicas y Tecnologías Avanzadas de Desarrollo de Software (TTADS)][ttads-github].
-Sobre Angular, en este caso el funcionamiento básico de los componentes, input, output, y el ciclo de vida.
+El bloque básico de construcción de Angular son los componentes, un componente tiene una clase y un template asi como atributos de entrada y salida. 
 
-[Aca][ttads-presentacion] se puede ver la presentacion que se uso para esas clases.
 
-[La documentación oficial de Angular](https://angular.io/docs) la base para empezar a usar el framework.
-
-[Acá](https://www.youtube.com/channel/UCkRACqaN5XpgH0P5hyqpQEw/featured) el canal de youtube de la materia.
 ## Angular Input
 
 En Angular el bloque básico de construcción son los componentes, la aplicación es un componente, una lista es un componente, un formulario es un componente, etc. 
@@ -62,6 +57,16 @@ en el video detallamos el resto y se da una explicación y demostración de los 
 
 {%include video id="EJl3zuDeGwo" provider="youtube" %}
 
+### Mas info de Angular
+
+Este post es parte de una serie de videos para la cátedra de [Técnicas y Tecnologías Avanzadas de Desarrollo de Software (TTADS)][ttads-github].
+Sobre Angular, en este caso el funcionamiento básico de los componentes, input, output, y el ciclo de vida.
+
+[Aca][ttads-presentacion] se puede ver la presentacion que se uso para esas clases.
+
+[La documentación oficial de Angular](https://angular.io/docs) la base para empezar a usar el framework.
+
+[Acá](https://www.youtube.com/channel/UCkRACqaN5XpgH0P5hyqpQEw/featured) el canal de youtube de la materia.
 
 [ttads-github]: https://github.com/utnfrrottads/
 [ttads-presentacion]: https://utnfrrottads.github.io/presentacion-angulario/#/

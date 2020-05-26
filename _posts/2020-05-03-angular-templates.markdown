@@ -5,13 +5,9 @@ tags: utn ttads video educación angular javascript typescript
 categories: educación
 toc: true
 ---
-Una serie de videos para la cátedra de [Técnicas y Tecnologías Avanzadas de Desarrollo de Software (TTADS)][ttads-github].
-Sobre Angular, en este caso las directivas basicas del framework. 
+Un componentes tiene un template, alli se especifica como se va a mostrar ese componente y que otros componentes tendrá como hijos.
 
-[Aca][ttads-presentacion] se puede ver la presentacion que se uso para esas clases.
-
-[La documentación oficial de Angular](https://angular.io/docs) la base para empezar a usar el framework.
-
+En este post vemos algunos detalles sobre cómo escribir esos templates.
 
 ## Angular Binding de Atributos	
 
@@ -49,6 +45,19 @@ Iterar sobre colecciones y generar elementos
 En este ejemplo creamos un componente Con una lista de Tareas por hacer en un unico componente con las directivas del framework. 
 
 {%include video id="i7IQej0Zomk" provider="youtube" %}
+
+### Mas info de Angular
+
+Este post es parte de una serie de videos para la cátedra de [Técnicas y Tecnologías Avanzadas de Desarrollo de Software (TTADS)][ttads-github].
+Sobre Angular, en este caso el funcionamiento básico de los componentes, input, output, y el ciclo de vida.
+
+El próximo de la serie  [Angular Componentes]({% post_url 2020-05-22-angular-componentes %}))
+
+[Aca][ttads-presentacion] se puede ver la presentacion que se uso para esas clases.
+
+[La documentación oficial de Angular](https://angular.io/docs) la base para empezar a usar el framework.
+
+[Acá](https://www.youtube.com/channel/UCkRACqaN5XpgH0P5hyqpQEw/featured) el canal de youtube de la materia.
 
 
 [ttads-github]: https://github.com/utnfrrottads/
