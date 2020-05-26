@@ -51,7 +51,7 @@ En este ejemplo creamos un componente Con una lista de Tareas por hacer en un un
 Este post es parte de una serie de videos para la cátedra de [Técnicas y Tecnologías Avanzadas de Desarrollo de Software (TTADS)][ttads-github].
 Sobre Angular, en este caso el funcionamiento básico de los componentes, input, output, y el ciclo de vida.
 
-El próximo de la serie  [Angular Componentes]({% post_url 2020-05-22-angular-componentes %}))
+El próximo de la serie  [Angular Componentes]({% site.baseurl %}{% post_url 2020-05-22-angular-componentes %})
 
 [Aca][ttads-presentacion] se puede ver la presentacion que se uso para esas clases.
 
