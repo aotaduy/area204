@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -38,14 +38,14 @@ author:
   avatar: /assets/images/profile.png
   bio: Rosarino, programador desde mi mas tierna infancia, profesor universitario, padre de 2 varones.
   location: Rosario, Santa Fe, Argentina
-  links: 
+  links:
     - label: LinkedIn
       url: https://ar.linkedin.com/in/andres-otaduy-48b69156
     - label: GitHub
       icon: fab fa-fw fa-github
       url: https://github.com/aotaduy
 
-og_image: /assets/images/area204-og.jpg
+og_image: /assets/images/area204-og2.jpg
 
 minima:
   social_links:
@@ -123,9 +123,9 @@ defaults:
       related: true
       toc: true
       header:
-        overlay_color: "#5e616c"  
+        overlay_color: "#5e616c"
         overlay_image: /assets/images/space-invaders-hero.jpg
-        og_image: /assets/images/area204-og.jpg
+        og_image: /assets/images/area204-og2.jpg
 
   # _pages
   - scope:
@@ -135,9 +135,9 @@ defaults:
       layout: single
       author_profile: true
       header:
-        overlay_color: "#5e616c"  
+        overlay_color: "#5e616c"
         overlay_image: /assets/images/space-invaders-hero.jpg
-        og_image: /assets/images/area204-og.jpg
+        og_image: /assets/images/area204-og2.jpg
 
   # _docs
 

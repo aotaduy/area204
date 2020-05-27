@@ -27,7 +27,7 @@ Arquitectura, componentes, servicios, módulos, inyección de dependencias, temp
 Este post es parte de una serie de videos para la cátedra de [Técnicas y Tecnologías Avanzadas de Desarrollo de Software (TTADS)][ttads-github].
 Sobre Angular, en este caso el funcionamiento básico de los componentes, input, output, y el ciclo de vida.
 
-El próximo de la serie  [Angular Templates]({{ site.baseurl }}{% post_url 2020-05-03-angular-templates %}))
+El próximo de la serie  [Angular Templates]({{ site.baseurl }}{% post_url 2020-05-03-angular-templates %})
 
 [Aca][ttads-presentacion] se puede ver la presentacion que se uso para esas clases.
 
