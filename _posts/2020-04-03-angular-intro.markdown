@@ -29,7 +29,7 @@ Sobre Angular, en este caso el funcionamiento básico de los componentes, input,
 
 El próximo de la serie  [Angular Templates]({{ site.baseurl }}{% post_url 2020-05-03-angular-templates %})
 
-[Aca][ttads-presentacion] se puede ver la presentacion que se uso para esas clases.
+[Aca][ttads-presentacion] se puede ver la presentación que se uso para esas clases.
 
 [La documentación oficial de Angular](https://angular.io/docs) la base para empezar a usar el framework.
 

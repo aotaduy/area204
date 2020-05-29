@@ -7,13 +7,13 @@ categories: educación
 Una serie de videos para la cátedra de [Técnicas y Tecnologías Avanzadas de Desarrollo de Software (TTADS)][ttads-github].
 Sobre Javascript basado en el libro [Javascript the Good Parts][good-parts]
 
-[Aca][ttads-presentacion] se puede ver la presentacion que se uso para esas clases.
+[Aca][ttads-presentacion] se puede ver la presentación que se uso para esas clases.
 
 Un [video en youtube](https://www.youtube.com/watch?v=lP9-Zx_cCUg) muy recomendable de una conferencia subtitulada del autor de este libro.
 
 La [primera parte]({% post_url 2020-04-01-presentacion-javascript %}) de estas clases.
 
-## Clousures, objetos dinamicos y literales
+## Clousures, objetos dinámicos y literales
 Crear objetos sin un new, agregar variables y métodos a un objetos sin especificar una clase. 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dK-lQxdjN0k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

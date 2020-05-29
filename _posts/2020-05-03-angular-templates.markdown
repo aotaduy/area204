@@ -11,7 +11,7 @@ En este post vemos algunos detalles sobre cómo escribir esos templates.
 
 ## Angular Binding de Atributos	
 
-En angular podemos pasar parametros a otros tags con los resultados de algún calculo de nuestro componente, para eso tenemos el binding de atributos. 
+En angular podemos pasar parámetros a otros tags con los resultados de algún calculo de nuestro componente, para eso tenemos el binding de atributos. 
 
 {%include video id="1oxWTlQVBM8" provider="youtube" %}
 

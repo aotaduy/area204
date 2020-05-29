@@ -10,17 +10,17 @@ Si queremos asegurar la calidad, seguridad y mantenibilidad del software el code
 La revision de código o code review, consiste en la lectura del código fuente de un sistema con la finalidad de encontrar errores, problemas de seguridad, formato estilo o nomenclatura. 
 
 ## Cuando se hace
-Se puede realizar sobre porciones del código o cambios antes de ser incorporados al trunk principal de desarrollo, como checkpoints en determinados momentos del proceso de desarrollo, como parte de una auditoria o sobre toda la base de código antes de una entreaa o como parte de la validación de la calidad de un entregable de software.
+Se puede realizar sobre porciones del código o cambios antes de ser incorporados al trunk principal de desarrollo, como checkpoints en determinados momentos del proceso de desarrollo, como parte de una auditoría o sobre toda la base de código antes de una entrega o como parte de la validación de la calidad de un entregable de software.
 
 ## Entrada
 
 Como entrada para este proceso deberíamos tener: 
 + La base de codigo: código fuente, estilos css, scripts de sql, acceso a los repositorios.
 + Reglas de estilo: Las reglas de estilo que se usaron en el desarrollo. 
-+ Principios de diseño: una descripción de los principios de diseño que se usaron para el desarrollo, los conceptos, arquitecturas, teorias y/o patrones involucrados. 
++ Principios de diseño: una descripción de los principios de diseño que se usaron para el desarrollo, los conceptos, arquitecturas, teorías y/o patrones involucrados. 
 
 ## Salida
-La salida de este proceso es una seria de comentarios y recomendaciones, normalmente con el detalle de la linea concreta en el código, para mejorar el código existente, hacerlo mas mantenible y acorde a los principios y estilos definidos para el proyecto. En algunos casos el proceso inluye la corrección de los problemas detectas con la participación del autor, el revisor y el resto del equipo. 
+La salida de este proceso es una seria de comentarios y recomendaciones, normalmente con el detalle de la linea concreta en el código, para mejorar el código existente, hacerlo mas mantenible y acorde a los principios y estilos definidos para el proyecto. En algunos casos el proceso incluye la corrección de los problemas detectas con la participación del autor, el revisor y el resto del equipo. 
 
 ## Principios del code review
 
@@ -39,7 +39,7 @@ La salida de este proceso es una seria de comentarios y recomendaciones, normalm
 + Profundo
 
 ### Completo 
-Todo el código ya sea código en producción o en desarrollo debe ser revisado, esto puede lograrse estableciendo un requerimiento de revisón y aprobación en cada Pull Request, o bien realizando revisiones periodicas de todo el código. Cada parte del codigo debe revisarse, frontend, backend, css, pruebas automatizadas, scripts de sql, documentación e incluso los casos de prueba. 
+Todo el código ya sea código en producción o en desarrollo debe ser revisado, esto puede lograrse estableciendo un requerimiento de revisión y aprobación en cada Pull Request, o bien realizando revisiones periodicas de todo el código. Cada parte del codigo debe revisarse, frontend, backend, css, pruebas automatizadas, scripts de sql, documentación e incluso los casos de prueba. 
 
 ### Obligatorio
 Todo el código debe ser revisado, ya sea el que incorporan lo arquitectos y lideres, bugfixes, hotfixes. Todos deben saber que el código va a ser revisado antes de ser integrado en el repositorio. 
@@ -59,7 +59,7 @@ Deberíamos poder detectar y/o corregir todos los errores de estilos con herrami
 Idealmente dos revisores  diferentes con los mismos principios de diseño y estilo definidos deberían producir los mismos comentarios para el mismo código. Deberiamos tratar de excluir cosas opinables o sujeto de debate entre miembros del equipo. En el caso de que surja algun debate en una revisión debe estar incluido en el proceso quien va a juzgar cual es la mejor manera de hacer algo y esta decision debe incluirse en la documentación y estilos del proceso de revisión de código. 
 
 ### Publico
-Todos los miembros del equipo pueden ver que código está siendo revisado y cualquier persona puede agregar un comentario a cualquier porcion de codigo de un Pull request. Debemoa evitar establecer una jerarquia que impida opinar sobre el codigo y proponer mejoras. 
+Todos los miembros del equipo pueden ver que código está siendo revisado y cualquier persona puede agregar un comentario a cualquier porcion de codigo de un Pull request. Debemos evitar establecer una jerarquia que impida opinar sobre el codigo y proponer mejoras. 
 
 ### Impersonal
 La revisión del código on se hace contra el autor del código, es contra el codigo mismo y se hace con el espiritu de mejorarlo. Debemos evitar adjetivar sobre el codigo y distinguir entre loa gustos personales y los estándares establecidos.

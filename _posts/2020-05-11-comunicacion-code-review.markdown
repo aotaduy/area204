@@ -5,9 +5,9 @@ tags: software bestPractices codeReview
 categories: software
 toc: true
 ---
-A la hora del code review puede ser dificil comunicar los resultados porque estamos haciendo una critica del trabajo de otros. 
+A la hora del code review puede ser difícil comunicar los resultados porque estamos haciendo una critica del trabajo de otros. 
 
-El trabajo del code reviewer es encontrar probleamas y fallas en el código, eso es el centro del proceso pero debemos tener ciertos criterios a la hora de comunicar estos resultados ya que el que los recibe es otra persona y es importante que se mantenga una buena relación en el entorno de trabajo. 
+El trabajo del code reviewer es encontrar problemas y fallas en el código, eso es el centro del proceso pero debemos tener ciertos criterios a la hora de comunicar estos resultados ya que el que los recibe es otra persona y es importante que se mantenga una buena relación en el entorno de trabajo. 
 
 ## Como comunicar en el code review
 
@@ -15,18 +15,18 @@ Vamos a mostrar una lista de do's y dont's en el code review a la hora de comuni
 
 + No referirse a la persona, referirse a uno mismo
     + Correcto: 'Me resulta dificil entender lo que hace esta función'
-    + Incorrecto: 'Estas escribiedo funciones muy crípticas'
+    + Incorrecto: 'Estas escribiendo funciones muy crípticas'
 + Incluirse como parte del arreglo del problema: 
-    + Correcto: 'Deberiamos arreglar estos tests'
+    + Correcto: 'Deberíamos arreglar estos tests'
     + Incorrecto: 'Tenes que arreglar estos tests'
 + Criticar lo que hace el codigo, no al autor
     + Correcto: 'Creo que deberíamos arreglar estos tests'
     + Incorrecto: 'Sos un poco descuidado al escribir los tests'
 + Hablar del código no de la persona
-    + Correcto: 'Esta función se llama muchas veces, parece inficiente'
-    + Incorrecto: 'Estas llamando a la función muchas veces, parece inficiente'
+    + Correcto: 'Esta función se llama muchas veces, parece ineficiente'
+    + Incorrecto: 'Estas llamando a la función muchas veces, parece insuficiente'
 + Usar PID, Percepción, Impacto, Deseo
-    + Percepción: 'Para mi este metodo es muy largo'
+    + Percepción: 'Para mi este método es muy largo'
     + Impacto: 'Me dificulta entender realmente que hace'
     + Deseo: 'Lo dividiria en varios metodos privados, con buenos nombres'
 + Aceptar que hay diferentes soluciones para un problema: 

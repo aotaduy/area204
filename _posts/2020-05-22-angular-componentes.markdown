@@ -51,7 +51,7 @@ Los mas importantes son:
 
 + `ngOnInit` para inicializar
 + `ngOnChanges`cuando cambia un objeto de los @Input
-+ `ngOnDestroy` cuando se elimina el compoenten del DOM
++ `ngOnDestroy` cuando se elimina el componente del DOM
 
 en el video detallamos el resto y se da una explicación y demostración de los mismos
 
