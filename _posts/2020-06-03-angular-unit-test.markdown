@@ -17,7 +17,7 @@ El CLI de Angular nos da un esqueleto para los unit test y un tipico proyecto ge
 Muy recomendable leer esta [Intro](https://jasmine.github.io/2.0/introduction)
 
 ## Karma
-Karma es un test-runner, es un programa que se encarga de correr los tests en secuencia, implementa un watch para correr los test de forma continua mientras se desarrolla y se puede configurar para que corra los tests en diferentes navegadores (Chrome, ChromeHeadless, IE, Firefox, etc). El archivo karma.conf.js nos permite configurar estos parámetros.
+[Karma](https://karma-runner.github.io/) es un test-runner, es un programa que se encarga de correr los tests en secuencia, implementa un watch para correr los test de forma continua mientras se desarrolla y se puede configurar para que corra los tests en diferentes navegadores (Chrome, ChromeHeadless, IE, Firefox, etc). El archivo karma.conf.js nos permite configurar estos parámetros.
 Lo mejor es configurar una tarea para correr los tests con ChromeHeadless siguiendo esta guia.
 (https://angular.io/guide/testing#configure-cli-for-ci-testing-in-chrome)
 Asi podemos usar esa misma tarea para correr en nuestro [CI](https://es.wikipedia.org/wiki/Integraci%C3%B3n_continua). 
