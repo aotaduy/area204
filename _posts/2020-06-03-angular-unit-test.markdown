@@ -17,14 +17,19 @@ El CLI de Angular nos da un esqueleto para los unit test y un tipico proyecto ge
 Muy recomendable leer esta [Intro](https://jasmine.github.io/2.0/introduction)
 
 ## Karma
-[Karma](https://karma-runner.github.io/) es un test-runner, es un programa que se encarga de correr los tests en secuencia, implementa un watch para correr los test de forma continua mientras se desarrolla y se puede configurar para que corra los tests en diferentes navegadores (Chrome, ChromeHeadless, IE, Firefox, etc). El archivo karma.conf.js nos permite configurar estos parámetros.
+[Karma](https://karma-runner.github.io/) es un test-runner, es un programa que se encarga de correr los tests en secuencia, implementa un watch para correr los test de forma continua mientras se desarrolla y se puede configurar para que corra los tests en diferentes navegadores (Chrome, ChromeHeadless, IE, Firefox, etc).
+
+El archivo karma.conf.js nos permite configurar estos parámetros.
+
 Lo mejor es configurar una tarea para correr los tests con ChromeHeadless siguiendo esta guia.
 (https://angular.io/guide/testing#configure-cli-for-ci-testing-in-chrome)
 Asi podemos usar esa misma tarea para correr en nuestro [CI](https://es.wikipedia.org/wiki/Integraci%C3%B3n_continua). 
 
 ## Archivos de Unit Test
-Lo mejor es crear un archivo de unit test para cada elemento de angular (componente, directiva, pipe, service, etc) que tengamos, el archivo normalmente tiene el mismo nombre que el elemento seguido del sufijo `.spec.ts`
-Ejemplo: 
+Una buena practica es crear un archivo de unit test para cada elemento de angular (componente, directiva, pipe, service, etc) que tengamos, el archivo normalmente tiene el mismo nombre que el elemento seguido del sufijo `.spec.ts`
+
+Ejemplo:
+ 
 `app.component.ts => app.component.spec.ts `
 `trim.pipe.ts => trim.pipe.spec.ts `
 `analytics.service.ts => analytics.service.spec.ts `
@@ -36,7 +41,9 @@ Los archivos de unit test deben estar junto con los componentes que testean no e
 
 ### Eliminar archivos de unit test vacíos.
 No es conveniente mantener archivos de test que no hacen nada o que no funcionan. El CLI de angular genera por defecto un esqueleto de test ante cada componente, pero si no vamos a implementar el test correspondiente es mejor eliminarlo, junto con todo otro dead code.
+
 Mas archivos en nuestro proyecto son mas archivos que mantener, refactorizar y que pueden inducir a errores.
+
 Menos codigo es mejor codigo, el unico codigo perfecto es el que no existe. 
 
 ### Archivos minimos de unit test
@@ -60,18 +67,22 @@ y otros.
 
 ## Code Coverage
 El code coverage es el porcentaje de nuestro codigo que se ejecuta cuando se corre el suite de unit test, es una estadística muy util y una herramienta muy importante para verificar que nuestros unit test son completos. 
-Para habilitar el reporte de code coverage se puede usar
+
+Para habilitar el reporte de code coverage se puede usar:
+
 `ng test --no-watch --code-coverage` 
+
 Ver [aqui](https://angular.io/guide/testing#enable-code-coverage-reports) para mas detalles.
 esto va a crear una carpeta `coverage` en nuestro repositorio con un reporte en html muy grafico que especifica cuantas veces se ejecuto cada linea y coloreando las lineas que no se ejecutaron.
+![Code Coverage Report]({{ site.baseurl }}/assets/screenshots/coverage-helpers.png)
 
 ### Coverage Driven Unit Test
 Una buena practica es mientras estamos desarrollando el unit test de una clase existente usar este reporte para crear nuevos casos de prueba que nos permitan cubrir mas lineas, funciones y branches del codigo.
 Cuando hacemos esto es importante crear casos de prueba que se condigan con la realidad del uso de ese componente y no poner valores de entrada irreales con tal de probar tal o cual funcion o branch de nuestro codigo. 
 
 ### Objetivos y Parametros
-Si tuvieramos que setear un standard una buena practica seria que todos los componentes tengan su unit test funcionando y a una cobertura global del 80% de nuestro codigo. 
-Tambien a que los tests esten integrados a a pre push hooks (ver [husky](https://github.com/typicode/husky)) en cada repositorio y a que se corran como parte de la integración continua en todos los proyectos.
+Si tuviéramos que setear un standard, una buena practica seria que todos los componentes tengan su unit test funcionando y a una cobertura global del 80% de nuestro codigo. 
+También a que los tests esten integrados a pre push hooks (ver [husky](https://github.com/typicode/husky)) en cada repositorio y a que se corran como parte de la integración continua en todos los proyectos.
 
 ### Mas info: 
 + [Documentacipn oficial testing angular](https://angular.io/guide/testing)
