@@ -1,5 +1,5 @@
 ---
-title:  "Angular consejos de Unit tests"
+title:  "Angular - Unit tests, elementos y buenas practicas"
 date:   2020-06-03 11:30:05 -0300
 tags: software bestPractices unitTest angular
 categories: software
@@ -58,12 +58,10 @@ En componentes stateless y componentes simples esto representa muchas veces mas 
 ## Guia de Creacion de Unit test por tipo de componente
 En la pagina de [Angular](http://angular.io) se pueden consultar una completa guia por tipo de elemento del framework con ejemplos para la creación de unit tests.
 (https://angular.io/guide/testing)
-Por ejemplo para Servicios
-(https://angular.io/guide/testing#service-tests)
-Componentes con bindings (`@Input()`) (https://angular.io/guide/testing#component-binding)
-Componentes con servicios asincronos (https://angular.io/guide/testing#component-with-async-service)
++ [Por ejemplo para Servicios](https://angular.io/guide/testing#service-tests)
++ [Componentes con bindings (`@Input()`)](https://angular.io/guide/testing#component-binding)
++ [Componentes con servicios asincronos](https://angular.io/guide/testing#component-with-async-service)
 y otros.
- Leer la guia completa o consultar cada vez que tenemos que encarar un nuevo tipo de unit test.
 
 ## Code Coverage
 El code coverage es el porcentaje de nuestro codigo que se ejecuta cuando se corre el suite de unit test, es una estadística muy util y una herramienta muy importante para verificar que nuestros unit test son completos. 
