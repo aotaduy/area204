@@ -6,6 +6,8 @@ categories: software angular typescript
 toc: true
 ---
 We will present a way to handle environments in runtime vs in compile time that is the standard way to do it.
+## The problem
+You have multiple deploy environments each one having different configurations such as api baseurl 
 ## The Angular-CLI way
 ### Compile Time environment
 Angular CLI provides a way to handle different environments built-in. 

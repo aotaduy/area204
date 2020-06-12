@@ -9,7 +9,7 @@ Los servicios son elementos no visuales dentro de Angular, se usan para comparti
 
 ## Servicios e Inyección de Dependencias
 
-En Angular podemos especificar servicios que son básicamente clases que la mayoria de las veces actuan como [singletons](https://es.wikipedia.org/wiki/Singleton).
+En Angular podemos especificar servicios que son básicamente clases que la mayoría de las veces actuan como [singletons](https://es.wikipedia.org/wiki/Singleton).
 
 Generalmente contienen cierta funcionalidad o estado compartido entre diferentes componentes. 
 
@@ -33,11 +33,11 @@ Vamos a ver tres formas bascas de inyectar un servicio:
 + En un componente
 
 Cada una opera de forma ligeramente diferente en cuanto a las instancias generadas por el inyector. 
-En el primer caso un [singleton](https://es.wikipedia.org/wiki/Singleton), en el segundo un singleton a nivel modulo, diferentes modulos tendran diferntes instancias, y en el tercero el servicio acompaña el ciclo de vida del componente.
+En el primer caso un [singleton](https://es.wikipedia.org/wiki/Singleton), en el segundo un singleton a nivel modulo, diferentes modulos tendrán diferentes instancias, y en el tercero el servicio acompaña el ciclo de vida del componente.
 
 {%include video id="h1epK7q2Jpc" provider="youtube" %}
 
-## Servicios ¿para que?  
+## Servicios ¿para que?
 
 Existen muchas razones para usar servicios entre otras: 
 
@@ -45,12 +45,11 @@ Existen muchas razones para usar servicios entre otras:
 + Comunicar componentes
 + Ordenar mejor el código
 
-Veremos en detalle con un ejemplo como hacer cada una. Mientras hacemos un refactor de nuestra humilde  TodoList
+Veremos en detalle con un ejemplo como hacer cada una. Mientras hacemos un refactor de nuestra humilde :memo: TodoList
 {%include video id="ei77W5FRMV8" provider="youtube" %}
 
-### Ejercicios
-Un ejercicio para practicar nuestro conocimiento sobre TodoList.
-
+### Ejercicio
+Con el ejemplo de la :memo: [TodoList](https://github.com/utnfrrottads/angular9-example/tree/services) 
 Tomar el codigo del branch [servicios](https://github.com/utnfrrottads/angular9-example/tree/services) bajarlo a su propio repo e implementar en otro servicio llamado LocalStorageService el guardado de la lista de forma persistente segun las apis del navegador
 + [JSON stringify](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/JSON/stringify)
 + [JSON parse](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/JSON/parse)

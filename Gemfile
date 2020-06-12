@@ -16,6 +16,7 @@ gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 # gem "jekyll-theme-basically-basic"
 gem "minimal-mistakes-jekyll"
+gem 'jemoji'
 
 group :jekyll_plugins do
   gem "jekyll-feed"

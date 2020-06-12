@@ -264,6 +264,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap
+  jemoji
   minimal-mistakes-jekyll
   tzinfo (~> 1.2)
   tzinfo-data
