@@ -9,7 +9,7 @@ El code review normalmente se hace en el proceso de aprobación de un pull reque
 
 Algunos tips/estrategias para facilitar el code review. 
 
-## Mejor prevenir que curar :medical_symbol:
+## Mejor prevenir que curar
 ### :point_up: El tamaño de las historias. 
 Tratar de no hacer historias muy grandes una historia muy grande acarrea un pull request muy grande, si atajamos esto a tiempo vamos a mejorar los tiempos de entrega de la historia, el testing y por supuesto el code review.
 
