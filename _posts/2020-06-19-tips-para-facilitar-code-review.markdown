@@ -45,8 +45,8 @@ Si ya tenemos algo que funciona aunque sea parcialmente con sus unit test ya se 
  
  En caso de ser necesario armar un PR solo con los arreglos de formateo y otro con la funcionalidad. Esto aplica a cuando nuestro formateador modifica los imports solo para ordenarlos o bien cuando se cambian espaciados masivamente en un archivo sin tocar demasiado la funcionalidad. En el caso de que la situación lo amerite (no se entiende nad en el archivo por temas de formato) hacerlo pero aclarar en el pr con un comentario del propio autor de esta sitacion para alivianar el trabajo del reviewer. 
  
-## Comentarios propios
+### Comentarios propios
 A veces para aclarar una situación extraña o partes del código que pueden llamar la atención se puede agregar un comentario del propio desarrollador en el PR. Esto es preferible a dejar comentarios justificativos en el codigo fuente a modo de excusa por restricciones que se pueden tener a la hora del desarrollo de una user story. 
  
- Mas info sobre pull requests y code review en el tag code review en este mismo blog
+ Mas info sobre pull requests y code review en el tag code review en este mismo [blog](https://aotaduy.github.io/area204/tags/)
 
