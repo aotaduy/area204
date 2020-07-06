@@ -48,5 +48,5 @@ Si ya tenemos algo que funciona aunque sea parcialmente con sus unit test ya se 
 ### Comentarios propios
 A veces para aclarar una situación extraña o partes del código que pueden llamar la atención se puede agregar un comentario del propio desarrollador en el PR. Esto es preferible a dejar comentarios justificativos en el codigo fuente a modo de excusa por restricciones que se pueden tener a la hora del desarrollo de una user story. 
  
- Mas info sobre pull requests y code review en el tag code review en este mismo [blog](https://aotaduy.github.io/area204/tags/)
+ Mas info sobre pull requests y code review en el tag code review en este mismo [blog](https://aotaduy.github.io/area204/tags/#codereview)
 
