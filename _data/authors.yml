@@ -9,3 +9,11 @@ Sol Lopez:
     - label: "Instagram"
       icon: "fab fa-instagram"
       url: "https://www.instagram.com/sol.lopez87/"
+Walter Casella:
+  name        : "Walter Casella"
+  bio         : "Desarrollador de software apasionado. Autodidacta. Futbolero amateur."
+  avatar      : "/assets/authors/walter-casella.jfif"
+  location    : Rosario, Santa Fe, Argentina
+  links:
+    - label: LinkedIn
+      url: "https://www.linkedin.com/in/wocasella/"
