@@ -5,26 +5,24 @@ tags: software bestPractices performance continousIntegration
 categories: software
 toc: true
 ---
-Análisis de performance de sitios web de forma continua, para evaluar en cada cambio como evolucionan los indicadores mas importantes de performance hacia nuestros usuarios.
+Como evaluar en cada cambio de nuestro código la evolución los indicadores más importantes de performance hacia nuestros usuarios.
 
-Cuando trabajamos con sitios web abiertos a internet, landing pages, sitios con usuarios casuales, que son encontrados por nuestros usuarios a traves de campañas o buscadores.
+Cuando trabajamos con sitios web abiertos a internet, landing pages, que son encontrados por nuestros usuarios a través de campañas o buscadores.
 Es muy importante que tengamos en cuenta ciertos indicadores de performance que van a influir mucho en la retención de esos usuarios. 
-Si el sitio es lento, tarda en renderizar, tarda en ser interactivo, es mucho mas  probable que los usuarios nos abandonen.
+Si el sitio es lento, tarda en renderizar o en ser interactivo, es mucho más probable que los usuarios abandonen el sitio.
 
-Para poder controlar estos indicadores de forma continua puede ser util agregar un paso en nuestra integración continua que nos permita ver el impacto de cada cambio que hacemos en los indicadores basicos de perfomance. 
+Para poder controlar estos indicadores de forma continua puede ser util agregar un paso en nuestra integración continua que nos permita ver el impacto de cada cambio que hacemos en el código en los indicadores básicos de performance. 
 
-Asi como controlamos la cobertura de unit test, cantidad de code smells o simplemente si nuestro sistema compila ante cada cambio. Podemos usar la integración continua para verificar la perfomance de los sitios web.
+Asi como controlamos la cobertura de unit test, cantidad de code smells o simplemente si nuestro sistema compila ante cada cambio. Podemos usar la integración continua para verificar la performance de los sitios web.
 
 
 ## Reportes de lightouse
-Lighthouse es una herramienta automatizada [open-source](https://github.com/GoogleChrome/lighthouse) de google para verificar y diagnosticar la corrección, performance y calidad los sitios web.
+Lighthouse es una herramienta automatizada [open-source](https://github.com/GoogleChrome/lighthouse) de google para verificar y diagnosticar la corrección, performance y calidad de los sitios web.
 
 ![Lighthouse en Chrome]({{ site.baseurl }}/assets/screenshots/lighthouse/lighthouse-screen1.png)
 
 
-Lighthouse corre una serie de pruebas y mediciones y genera un reporte con indicadores clave y problemas. Esta incorporada en chrome en las herramientas de inspección y medición.
-
-![Reporte Lighthouse]({{ site.baseurl }}/assets/screenshots/lighthouse/lighthouse-screen2.png)
+Lighthouse corre una serie de pruebas y mediciones generando un reporte con indicadores clave y problemas. Está incorporada en chrome en las herramientas de inspección y medición y puede usarse en cualquier sitio web en cualquier momento.
 
 ## Indicadores clave
 Lighthouse divide sus indicadores en 5 categorías
@@ -35,6 +33,9 @@ Lighthouse divide sus indicadores en 5 categorías
 + Buenas Prácticas
 + SEO
 
+![Reporte Lighthouse]({{ site.baseurl }}/assets/screenshots/lighthouse/lighthouse-screen2.png)
+
+
 En un enfoque de mejora continua deberíamos mejorar, o aunque sea no empeorar, los indicadores ante cada cambio que hagamos en nuestro sitio. 
 
 Cuando los indicadores clave no estén en los valores predeterminados como aceptables por google, lighthouse nos va a dar recomendaciones muy valiosas para mejorarlos. 
@@ -43,11 +44,12 @@ Cuando los indicadores clave no estén en los valores predeterminados como acept
 
 Es una herramienta que nos permite obtener reportes de lighthouse en el contexto de un servidor de Integración Continua (CI)
 
-Primero necesitamos contar con un sistema de integración continua, puede ser github actions, azure devops, un esquema basado en jenkins o cualquier otro. 
-Incluyendo un VCS como github, bitbucket o azure generalmente basado en git.
-
 > *Integración continua* consiste en una práctica de desarrollo de software donde los miembros de un equipo integran sus cambios de forma frecuente y automatizada, como minimo diariamente.
 > Cada integración se verifica de manera automatizada incluyendo tests, compilaciones y análisis estático para detectar problemas.
+
+
+Como prerequisito necesitamos contar con un sistema de integración continua, puede ser github actions, azure devops, un esquema basado en jenkins o cualquier otro. 
+Incluyendo un VCS como github, bitbucket o azure generalmente basado en git.
 
 Para agregar soporte para lighthouse-ci con las configuraciones por defecto debemos agregar un archivo 
 
@@ -112,34 +114,33 @@ Los snippets
 **.github/workflows/pr.yml** 
 
 ```yaml
-.....
-      - name: Audit URLs using Lighthouse
-        uses: treosh/lighthouse-ci-action@v9
-        id: LHCIAction
-        with:
-          urls: |
-            https://dev-site.com
-          uploadArtifacts: false # save results as an action artifacts
-          temporaryPublicStorage: true # upload lighthouse report to the temporary storage
-      - name: Format Lighthouse comment
-        id: LHCICommentFormat
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const lighthouseCommentMaker = require('./.github/formatComment.js')
-            const lighthouseOutputs = {
-                        manifest: ${{ steps.LHCIAction.outputs.manifest }},
-                        links: ${{ steps.LHCIAction.outputs.links }}
-                      };
-            const comment = lighthouseCommentMaker({ lighthouseOutputs });
-            core.setOutput("comment", comment);
-      - name: comment lighthouse PR
-        uses: unsplash/comment-on-pr@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          msg: ${{ steps.LHCICommentFormat.outputs.comment }}
-          check_for_duplicate_msg: false # OPTIONAL
+  - name: Audit URLs using Lighthouse
+    uses: treosh/lighthouse-ci-action@v9
+    id: LHCIAction
+    with:
+      urls: |
+        https://dev-site.com
+      uploadArtifacts: false # save results as an action artifacts
+      temporaryPublicStorage: true # upload lighthouse report to the temporary storage
+  - name: Format Lighthouse comment
+    id: LHCICommentFormat
+    uses: actions/github-script@v6
+    with:
+      script: |
+        const lighthouseCommentMaker = require('./.github/formatComment.js')
+        const lighthouseOutputs = {
+                    manifest: ${{ steps.LHCIAction.outputs.manifest }},
+                    links: ${{ steps.LHCIAction.outputs.links }}
+                  };
+        const comment = lighthouseCommentMaker({ lighthouseOutputs });
+        core.setOutput("comment", comment);
+  - name: comment lighthouse PR
+    uses: unsplash/comment-on-pr@master
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    with:
+      msg: ${{ steps.LHCICommentFormat.outputs.comment }}
+      check_for_duplicate_msg: false # OPTIONAL
 ....
 ```
 
