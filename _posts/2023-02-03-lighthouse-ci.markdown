@@ -5,15 +5,15 @@ tags: software bestPractices performance continousIntegration
 categories: software
 toc: true
 ---
-Análisis de performance de sitios web de forma continua, para evaluar en cada cambio como evolucionan los indicadores mas importantes de performance hacie nuestros usuarios.
+Análisis de performance de sitios web de forma continua, para evaluar en cada cambio como evolucionan los indicadores mas importantes de performance hacia nuestros usuarios.
 
-Cuando trabajamos con sitios web abiertos a internet, landing pages, sitios con usuarios casuales, que son encontrados por nuestrs usuarios a traves de campañas o buscadores.
-Es muy importante que tengamos en cuenta ciertos indicadores de performance que van a influir mucho en la retencion de esos usuarios. 
-Si el sitio es lento, tarda en renderizar, tarda en ser interactivo, es mucho mas  probable que los usuarios nos abandonden.
+Cuando trabajamos con sitios web abiertos a internet, landing pages, sitios con usuarios casuales, que son encontrados por nuestros usuarios a traves de campañas o buscadores.
+Es muy importante que tengamos en cuenta ciertos indicadores de performance que van a influir mucho en la retención de esos usuarios. 
+Si el sitio es lento, tarda en renderizar, tarda en ser interactivo, es mucho mas  probable que los usuarios nos abandonen.
 
-Para poder controlar estos indicadores de forma continua puede ser util agregar un paso en nuestra integracion continua que nos permita ver el impacto de cada cambio que hacemos en los indicadores basicos de perfomance. 
+Para poder controlar estos indicadores de forma continua puede ser util agregar un paso en nuestra integración continua que nos permita ver el impacto de cada cambio que hacemos en los indicadores basicos de perfomance. 
 
-Asi como controlamos la cobertura de unit test, cantidad de code smells o simplemente si nuestro sistema compila ante cada cambio. Podemos usar la integracion continua para verificar la perfomance de los sitios web.
+Asi como controlamos la cobertura de unit test, cantidad de code smells o simplemente si nuestro sistema compila ante cada cambio. Podemos usar la integración continua para verificar la perfomance de los sitios web.
 
 
 ## Reportes de lightouse
@@ -22,7 +22,7 @@ Lighthouse es una herramienta automatizada [open-source](https://github.com/Goog
 ![Lighthouse en Chrome]({{ site.baseurl }}/assets/screenshots/lighthouse/lighthouse-screen1.png)
 
 
-Lightouse corre una serie de pruebas y mediciones y genera un reporte con indicadores clave y problemas. Esta incorporada en chrome en las herramientas de inspección y medicion.
+Lighthouse corre una serie de pruebas y mediciones y genera un reporte con indicadores clave y problemas. Esta incorporada en chrome en las herramientas de inspección y medición.
 
 ![Reporte Lighthouse]({{ site.baseurl }}/assets/screenshots/lighthouse/lighthouse-screen2.png)
 
@@ -37,16 +37,17 @@ Lighthouse divide sus indicadores en 5 categorías
 
 En un enfoque de mejora continua deberíamos mejorar, o aunque sea no empeorar, los indicadores ante cada cambio que hagamos en nuestro sitio. 
 
-Cuando los indicadores clave no estén en los valores predeterminados como aceptables por google, lighthouse nos va dar recomendaciones muy valiosas para mejorarlos. 
+Cuando los indicadores clave no estén en los valores predeterminados como aceptables por google, lighthouse nos va a dar recomendaciones muy valiosas para mejorarlos. 
 
 ## Lighthouse CI
+
 Es una herramienta que nos permite obtener reportes de lighthouse en el contexto de un servidor de Integración Continua (CI)
 
 Primero necesitamos contar con un sistema de integración continua, puede ser github actions, azure devops, un esquema basado en jenkins o cualquier otro. 
 Incluyendo un VCS como github, bitbucket o azure generalmente basado en git.
 
 > *Integración continua* consiste en una práctica de desarrollo de software donde los miembros de un equipo integran sus cambios de forma frecuente y automatizada, como minimo diariamente.
-> Cada integración se verifica de manera automatizada incluyendo tests, compilaciones y analisis estatico para detectar problemas.
+> Cada integración se verifica de manera automatizada incluyendo tests, compilaciones y análisis estático para detectar problemas.
 
 Para agregar soporte para lighthouse-ci con las configuraciones por defecto debemos agregar un archivo 
 
@@ -64,7 +65,7 @@ module.exports = {
 
 Con esto vamos a poder trackear los resultados de lighthouse en un almacenamiento público y temporal proporcionado por google. 
 
-Corriendo el comando ´lhci autorun´ lighthouse va a tratar de encontrar todos los archivos estaticos y correr el reporte por cada uno de ellos.
+Corriendo el comando ´lhci autorun´ lighthouse va a tratar de encontrar todos los archivos estáticos y correr el reporte por cada uno de ellos.
 
 El siguiente paso es configurar nuestro servidor de CI para que este comando corra despues de cada pull request o de cada commit a master
 
@@ -95,13 +96,13 @@ jobs:
           lhci autorun
 ```
 
-Existen varias opciones de configuración dependiendo del tipo de servidor del sitio web, si es un sitio estatico, dinamico, si tenemos diferentes ambientes, etc.
+Existen varias opciones de configuración dependiendo del tipo de servidor del sitio web, si es un sitio estático, dinámico, si tenemos diferentes ambientes, etc.
 para esto podemos ver la guia de configuración de [lighthouse-ci](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/getting-started.md)
 
 En mi caso estoy usando este enfoque en un sitio [Next.js](https://nextjs.org/) y mediante github actions corremos las pruebas sobre el entorno de desarrollo 
 Además generamos un comentario en el pull request de github que muestra el estado del análisis de lighthouse.
 
-Para eso tenemos un script que genera un comentario. Una vez que corre lighthouse uso la información que deja en el action para generar un comentario con un script custom les dejo el snipeet
+Para eso tenemos un script que genera un comentario. Una vez que corre lighthouse uso la información que deja en el action para generar un comentario con un script custom les dejo el snipet
 
 Los análisis los corremos sobre un deploy temporal que vive mientras esta vivo el Pull Request
 Pero se podría correr sobre el ambiente de dev y hacerlo una vez que el PR esta mergeado y deployado. 
